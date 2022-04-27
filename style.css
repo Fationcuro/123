@@ -1,0 +1,86 @@
+
+
+body{
+    background-color: aliceblue;
+}
+h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 30px;
+
+}
+
+nav ul{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 100px) ;    
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px ;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+.btn-1 a{
+    color: white;
+    text-decoration: none;
+    background-color: 
+    #35408F;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:12px 24px  ;
+    border-radius: 36px;
+    position: relative;
+
+}
+
+main h2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 40px;
+ display: grid;
+}
+.macbook{
+    color: #35408f;
+    
+}
+main{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+
+}
+
+.button-2 a{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 36px;
+    background-color: #35408F;
+}
+.button-2{
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#img-macbook{
+    width: 646px;
+    height: 654px;
+}
