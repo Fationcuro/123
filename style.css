@@ -1,8 +1,8 @@
 
-
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
+
 h4{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,6 +81,28 @@ main p{
     gap: 20px;
 }
 #img-macbook{
-    width: 646px;
-    height: 654px;
+    width:500px;
+    height: 500px;
+ 
+}
+.container{
+display: grid;
+justify-content: end;
+margin-top:180px ;
+}
+.info-1{
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 70px 20px;
+  margin-top: 200px;
+  border-left-style:solid;
+  border-left-color: blue;
+  border-left-width: 10px;
+}
+.info-2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    border-left-style:solid;
+    border-left-color: blue;
+    border-left-width: 10px;
 }
