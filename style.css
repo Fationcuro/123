@@ -89,12 +89,27 @@ display: grid;
 justify-content: end;
 margin-top:180px ;
 }
+.info-1{
+    border-left: 10px solid rgb(0, 140, 255);
+}
+.info-2{
+    border-left: 10px solid orange;
+
+}
+.info-3{
+    border-left: 10px solid purple;
+
+}
+.info-4{
+    border-left: 10px solid orangered;
+}
 #page-2{
 font-family: Arial, Helvetica, sans-serif;
 display: grid;
 gap: 300px;
 padding: 15px 60px;
 grid-template-columns:10fr 1fr;
+font-weight: bold;
 }
 section{
     margin-top: 100px;
@@ -107,5 +122,5 @@ section{
 }
 .img-two img{
     width: 500px;
-    
+
 }
