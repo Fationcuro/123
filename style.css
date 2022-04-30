@@ -117,8 +117,7 @@ section{
 .img-two{
     display: grid;
     justify-content: center;
-    padding: 15px 60px;
-   
+    margin: auto;
 }
 .img-two img{
     width: 500px;
