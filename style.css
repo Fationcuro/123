@@ -124,7 +124,7 @@ margin-top:180px ;
 }
 footer{
     margin-top: 100px;
-    height: 2000px;
+    
     background-color: black;
     clip-path: polygon(0 0, 300% 15%, 100% 100%, 0% 100%);
     
@@ -136,7 +136,7 @@ footer{
 
 }
 .img-3 img{
-    width: 600px;
+    width: 700px;
     
 }
 .m1-pro-text{
@@ -170,4 +170,40 @@ span{
 .btn-3{
     padding: 15px 60px;
 
+}
+.img-4{
+    display: grid;
+    justify-content: center;
+    
+}
+.img-4 img{
+    width: 700px;
+}
+.m1-max-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 60px;
+    text-align: end;
+}
+.page-3-text-2{
+    color: #EED9D9;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.btn-4 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #35408F;
+    padding: 12px 24px;
+    border-radius: 36px;
+}
+.btn-4{
+    display: grid;
+    justify-content: end;
+    padding: 15px 60px;
 }
