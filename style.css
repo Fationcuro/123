@@ -123,18 +123,50 @@ margin-top:180px ;
 }
 footer{
     margin-top: 100px;
-    background-color:black;
     height: 2000px;
-    clip-path: polygon(0 0, 300% 36%, 100% 100%, 0% 100%);
+    background-color: black;
+    clip-path: polygon(0 0, 300% 15%, 100% 100%, 0% 100%);
     
 }
 .img-3{
-    margin: auto;
     display: grid;
     justify-content: center;
-    align-items:flex-end;
+    padding: 100px 0px;
 
 }
 .img-3 img{
     width: 600px;
+    
+}
+.m1-pro-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 60px;
+    
+}
+span{
+    border-top: 10px solid white;
+    padding: 50px 0px;
+}
+.page-3-text-1{
+    color: #EED9D9;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.btn-3 a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #35408F;
+    padding: 12px 24px;
+    border-radius: 36px;
+
+}
+.btn-3{
+    padding: 15px 60px;
+    
 }
